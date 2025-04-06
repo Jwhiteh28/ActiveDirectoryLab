@@ -40,6 +40,10 @@ Open Oracle VirtualBox. Click "New" then name your VM DC(Domain Controller) and 
 <img src="https://i.imgur.com/GFqARyp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/peUCCcU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+Next click settings > Advanced > General change Shared Clipboard and Drag'n'Drop to bidirectional. This allow you to ctrl c and ctrl v between the virtual machine and your actual computer. Drag'n'Drop bidirectional allows user to drag files from the desktop into the virtual machine.
+<br />
+<img src="https://i.imgur.com/I4XvPTP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 <br />
 Wait for process to complete (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
