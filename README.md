@@ -36,8 +36,9 @@ Go to www.microsoft.com/en-us/evalcenter/download-windows-server-2019. Select yo
 <br />
 <br />
 Creating Our Virtual Machines: <br/>
- Open Oracle VirtualBox. Click "New" then name your VM DC(Domain Controller) and for version select Other Windows(64-bit)
+Open Oracle VirtualBox. Click "New" then name your VM DC(Domain Controller) and for version select Other Windows(64-bit). At least 2GB(2048MB) of RAM and click "Next" until finish.
 <img src="https://i.imgur.com/GFqARyp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/peUCCcU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
