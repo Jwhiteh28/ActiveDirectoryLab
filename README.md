@@ -35,8 +35,9 @@ Go to www.microsoft.com/en-us/evalcenter/download-windows-server-2019. Select yo
 <img src="https://i.imgur.com/KTLPQ7p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Creating Our Virtual Machines: <br/>
+ Open Oracle VirtualBox. Click "New" then name your VM DC(Domain Controller) and for version select Other Windows(64-bit)
+<img src="https://i.imgur.com/GFqARyp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
