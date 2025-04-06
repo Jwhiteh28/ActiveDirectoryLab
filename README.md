@@ -4,7 +4,7 @@
 
 <h2>Description</h2>
 Creating an Active Directory Home Lab Environment Using Oracle VirtualBox.
-This project demonstrates how to build and configure a fully functional Active Directory (AD) environment using Oracle VirtualBox. The purpose of the lab is to provide hands-on experience with Windows Server networking, Active Directory, and domain management in a controlled, isolated environment. By setting up a virtual network, this project allows users to explore core concepts of AD, including domain controllers, DNS configuration, user management, group policies, and domain joining.
+This project demonstrates how to set up a basic Home Lab while building and configuring a fully functional Active Directory (AD) environment using Oracle VirtualBox. The purpose of the lab is to provide hands-on experience with Windows Server networking, Active Directory, and domain management in a controlled, isolated environment. By setting up a virtual network, this project allows users to explore core concepts of AD, including domain controllers, DNS configuration, user management, group policies, and domain joining.
 <br />
 
 
