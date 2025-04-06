@@ -31,8 +31,9 @@ Go to www.microsoft.com/en-us/software-download/windows10.
 <img src="https://i.imgur.com/AG2jMtJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Download Server 2019 ISO: <br/>
+Go to www.microsoft.com/en-us/evalcenter/download-windows-server-2019. Select your desired langauge and ISO downloads.
+<img src="https://i.imgur.com/KTLPQ7p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
