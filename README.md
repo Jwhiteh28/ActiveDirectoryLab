@@ -23,7 +23,7 @@ This project demonstrates how to build and configure a fully functional Active D
 <p align="center">
 Set up VirtualBox Environment: <br/>
  Go to virtualbox.org/wiki/Downloads. Install Oracle VirtualBox and configure the environment to create and manage virtual machines
-<img src="https://i.imgur.com/2eHxL4M.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sq59v90.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
