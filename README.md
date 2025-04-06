@@ -28,7 +28,7 @@ Go to virtualbox.org/wiki/Downloads. Download your preferred platform package. A
 <br />
 Download Windows 10 ISO:  <br/>
 Go to www.microsoft.com/en-us/software-download/windows10. 
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AG2jMtJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
