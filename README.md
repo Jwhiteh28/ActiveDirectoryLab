@@ -1,6 +1,6 @@
 <h1>Active Directory Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+ ### [YouTube Demonstration]()
 
 <h2>Description</h2>
 Creating an Active Directory Home Lab Environment Using Oracle VirtualBox.
@@ -21,8 +21,9 @@ This project demonstrates how to build and configure a fully functional Active D
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Set up VirtualBox Environment: <br/>
+ Go to virtualbox.org/wiki/Downloads. Install Oracle VirtualBox and configure the environment to create and manage virtual machines
+<img src="https://i.imgur.com/2eHxL4M.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
