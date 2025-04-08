@@ -44,6 +44,15 @@ Next click settings > Advanced > General change Shared Clipboard and Drag'n'Drop
 <br />
 <img src="https://i.imgur.com/I4XvPTP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+ If you have a computer with plenty cores you can do more but if you have few do less or just keep it at one.
+<br />
+<img src="https://i.imgur.com/iMEFAkL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+Go to Network > Expert. Adapter 1 is attached to NAT. Remember we are creating the Domain Controller(DC) so you want to have two NIC(Network Interface Card), one that is dedicated for internet which will be running NAT and the second(Adapter 2) dedicated for the internal vmware network.
+<br />
+<img src="https://i.imgur.com/9yI3EfM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tutqicO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 <br />
 Wait for process to complete (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
