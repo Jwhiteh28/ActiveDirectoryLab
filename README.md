@@ -53,18 +53,17 @@ Go to Network > Expert. Adapter 1 is attached to NAT. Remember we are creating t
 <img src="https://i.imgur.com/9yI3EfM.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <img src="https://i.imgur.com/tutqicO.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br />
-<br />
 Start the DC(VM), then select the server 2019 ISO that was downloaded and click "mount" to start the virtual machine. At the Windows Setup click "Next" then Install Now
 <br />
 <img src="https://i.imgur.com/k5g2GsK.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <img src="https://i.imgur.com/j1STndP.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <img src="https://i.imgur.com/okGttuc.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br />
-<br />
-After install, select "Windows Server 2019 Standard Evaluation (Desktop Experience) x64" click "Next" for this and license terms agreement. Select the Custom type of installation.
+After install, select "Windows Server 2019 Standard Evaluation (Desktop Experience) x64" click "Next" for this and license terms agreement. Select the Custom type of installation and click "Next" you will see the installing Windows, this will take some time.
 <br />
 <img src="https://i.imgur.com/aotauF8.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <img src="https://i.imgur.com/Sxizs4Y.png" height="80%" width="80%" alt="VMSetup Steps"/>
+<img src="https://i.imgur.com/4brTnVk.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br />
 Wait for process to complete (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="VMSetup Steps"/>
