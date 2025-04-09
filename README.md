@@ -65,7 +65,7 @@ After install, select "Windows Server 2019 Standard Evaluation (Desktop Experien
 <img src="https://i.imgur.com/Sxizs4Y.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <img src="https://i.imgur.com/4brTnVk.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br /> 
-At the Customize Setting, create a password(Bluemachina28) for your Admin account.
+At the Customize Setting, create a password(Bluemachina28) for your Admin account and click "Finish".
 <img src="https://i.imgur.com/OR1RhX1.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br />
 Wait for process to complete (may take some time):  <br/>
