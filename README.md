@@ -1,6 +1,6 @@
 <h1>Active Directory Home Lab</h1>
 
- ### [YouTube Demonstration]()
+ <!--- ### [YouTube Demonstration]() --!>
 
 <h2>Description</h2>
 This project demonstrates how to set up a basic Home Lab while building and configuring a fully functional Active Directory (AD) environment using Oracle VirtualBox. The purpose of the lab is to provide hands-on experience with Windows Server networking, Active Directory, and domain management in a controlled, isolated environment. By setting up a virtual network, this project allows users to explore core concepts of AD, including domain controllers, DNS configuration, user management, group policies, and domain joining.
@@ -68,6 +68,7 @@ After install, select "Windows Server 2019 Standard Evaluation (Desktop Experien
 At the Customize Setting, create a password(Bluemachina28) for your Admin account and click "Finish".
 <img src="https://i.imgur.com/OR1RhX1.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br />
+<!--
 Wait for process to complete (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br />
@@ -79,6 +80,7 @@ Sanitization complete:  <br/>
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="VMSetup Steps"/>
 </p>
+--!>
 
 <!--
  ```diff
