@@ -69,7 +69,7 @@ At the Customize Setting, create a password(Bluemachina28) for your Admin accoun
 <img src="https://i.imgur.com/OR1RhX1.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br />
 <!--
-Wait for process to complete (may take some time):  <br/>
+Active Directory:  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br />
 <br />
