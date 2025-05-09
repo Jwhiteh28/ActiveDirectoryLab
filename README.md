@@ -68,13 +68,14 @@ After install, select "Windows Server 2019 Standard Evaluation (Desktop Experien
 At the Customize Setting, create a password(Bluemachina28) for your Admin account and click "Finish".
 <img src="https://i.imgur.com/OR1RhX1.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br />
-At this screen, go to input > keyboard > insert CTRL-ALT-DEL
+At this screen, go to input > keyboard > insert CTRL-ALT-DEL then enter your password again.
 <img src="https://i.imgur.com/b1qSYXl.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br />
-<!--
-Active Directory:  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="VMSetup Steps"/>
+Active Directory: <br/> Install active directory domain services and create a domain. In Server Manager, click add roles and features. Continue clicking next until you get to "Select Destination Server", select your domain controller.
+<img src="https://i.imgur.com/SYgSlSc.png" height="80%" width="80%" alt="AD"/>
+<img src="https://i.imgur.com/ocAd2dv.png" height="80%" width="80%" alt="AD"/>
 <br />
+<!--
 <br />
 Sanitization complete:  <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="VMSetup Steps"/>
