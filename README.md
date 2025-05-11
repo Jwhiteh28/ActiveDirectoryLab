@@ -77,7 +77,7 @@ Active Directory: <br/> Install active directory domain services and create a do
 <img src="https://i.imgur.com/ocAd2dv.png" height="80%" width="80%" alt="AD"/>
 <img src="https://i.imgur.com/GmXozTe.png" height="80%" width="80%" alt="AD"/>
 <br />
-After installing the Active Directory you have to create the domain. Click "Promote this server to domain controller"> click "add new forest" then name your domain(Bluemachinadomain.com) click "Next". Create a password(Bluemachina28).
+After installing the Active Directory you have to create the domain. Click "Promote this server to domain controller"> click "add new forest" then name your domain(Bluemachinadomain.com) click "Next". Create a password(Bluemachina28). Continue to click "Next" and finally "install". A restart will begin automatically.
 <br/>
 <img src="https://i.imgur.com/LZrX0G1.png" height="80%" width="80%" alt="AD"/>
 <img src="https://i.imgur.com/rAXzHOP.png" height="80%" width="80%" alt="AD"/>
