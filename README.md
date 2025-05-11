@@ -71,10 +71,18 @@ At the Customize Setting, create a password(Bluemachina28) for your Admin accoun
 At this screen, go to input > keyboard > insert CTRL-ALT-DEL then enter your password again.
 <img src="https://i.imgur.com/b1qSYXl.png" height="80%" width="80%" alt="VMSetup Steps"/>
 <br />
-Active Directory: <br/> Install active directory domain services and create a domain. In Server Manager, click add roles and features. Continue clicking next until you get to "Select Destination Server", select your domain controller.
+Active Directory: <br/> Install active directory domain services and create a domain. In Server Manager, click add roles and features. Continue clicking next until you get to "Select Destination Server", select your domain controller server. Next select "Active Directory Domain Services"> add features > continue next and finally click install
+<br/>
 <img src="https://i.imgur.com/SYgSlSc.png" height="80%" width="80%" alt="AD"/>
 <img src="https://i.imgur.com/ocAd2dv.png" height="80%" width="80%" alt="AD"/>
+<img src="https://i.imgur.com/GmXozTe.png" height="80%" width="80%" alt="AD"/>
 <br />
+After installing the Active Directory you have to create the domain. Click "Promote this server to domain controller"> click "add new forest" then name your domain(Bluemachinadomain.com) click "Next". Create a password(Bluemachina28).
+<br/>
+<img src="https://i.imgur.com/LZrX0G1.png" height="80%" width="80%" alt="AD"/>
+<img src="https://i.imgur.com/rAXzHOP.png" height="80%" width="80%" alt="AD"/>
+<img src="https://i.imgur.com/18FXX3m.png" height="80%" width="80%" alt="AD"/>
+<br/>
 <!--
 <br />
 Sanitization complete:  <br/>
