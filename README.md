@@ -82,7 +82,11 @@ After installing the Active Directory you have to create the domain. Click "Prom
 <img src="https://i.imgur.com/LZrX0G1.png" height="80%" width="80%" alt="AD"/>
 <img src="https://i.imgur.com/rAXzHOP.png" height="80%" width="80%" alt="AD"/>
 <img src="https://i.imgur.com/18FXX3m.png" height="80%" width="80%" alt="AD"/>
+<img src="https://i.imgur.com/HUH8BW5.png" height="80%" width="80%" alt="AD"/>
 <br/>
+Now we create our own dedicated domain admin account instead of the built-in administrator account. Go to Start > Windows Administrative Tools > Active Directory Users and Computers. See the Bluemachinadomain.com, that is the newly created domain.
+<br/>
+<img src="https://i.imgur.com/CmbqXdD.png" height="80%" width="80%" alt="AD"/>
 <!--
 <br />
 Sanitization complete:  <br/>
