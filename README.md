@@ -88,7 +88,10 @@ Now we create our own dedicated domain admin account instead of the built-in adm
 <br/>
 <img src="https://i.imgur.com/CmbqXdD.png" height="80%" width="80%" alt="AD"/>
 <br/>
-Creating an organizational unit to put our admin account in (its like a folder in active directory 
+Creating an Organizational Unit to put our admin account in (its like a folder in active directory) right click your domain name > New > Organizational Unit. Which allow you to name it. I will name it _ADMINS. Inside our _ADMINS lets create a new user. Right click _ADMINS > New > User, enter info(a-jwhitehead) the "a" signify it's an admain account. Then you will be asked to create a password(Bmjwhiteh6). In this lab I checked "password never expires" > Finish
+<br/>
+<img src="https://i.imgur.com/suYCjZK.png" height="80%" width="80%" alt="AD"/>
+<img src="https://i.imgur.com/TgYLfyD.png" height="80%" width="80%" alt="AD"/>
 <!--
 <br />
 Sanitization complete:  <br/>
