@@ -88,10 +88,17 @@ Now we create our own dedicated domain admin account instead of the built-in adm
 <br/>
 <img src="https://i.imgur.com/CmbqXdD.png" height="80%" width="80%" alt="AD"/>
 <br/>
-Creating an Organizational Unit to put our admin account in (its like a folder in active directory) right click your domain name > New > Organizational Unit. Which allow you to name it. I will name it _ADMINS. Inside our _ADMINS lets create a new user. Right click _ADMINS > New > User, enter info(a-jwhitehead) the "a" signify it's an admain account. Then you will be asked to create a password(Bmjwhiteh6). In this lab I checked "password never expires" > Finish
+Creating an Organizational Unit to put our admin account in (its like a folder in active directory) right click your domain name > New > Organizational Unit. Which allow you to name it. I will name it _ADMINS. Inside our _ADMINS lets create a new user. Right click _ADMINS > New > User, enter info(a-jwhitehead) the "a" signify it's an admin account. Then you will be asked to create a password(Bmjwhiteh6). In this lab I checked "password never expires" > Finish
 <br/>
 <img src="https://i.imgur.com/suYCjZK.png" height="80%" width="80%" alt="AD"/>
 <img src="https://i.imgur.com/TgYLfyD.png" height="80%" width="80%" alt="AD"/>
+<br/>
+Making an account into a Domain Admin Account: <br/>
+Now we have an account but it's not an admin. To make this account admin, right click the user account > properties > Member Of > click Add > Type "Domain Admins" > click Check Names > click Ok > Apply > Ok. Now we have our domain admin account. Remember if you want to use this account as an domain admin account you have to sign out of the domain controller then sign in after clicking "Other User" using your domain admin account(a-jwhitehead) and password.
+<br/>
+<img src="https://i.imgur.com/LoNEVZO.png" height="80%" width="80%" alt="AD"/>
+<img src="https://i.imgur.com/kaIWn26.png" height="80%" width="80%" alt="AD"/>
+<img src="https://i.imgur.com/DzAXSiI.png" height="80%" width="80%" alt="AD"/>
 <!--
 <br />
 Sanitization complete:  <br/>
