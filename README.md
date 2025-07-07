@@ -37,6 +37,7 @@ Go to www.microsoft.com/en-us/evalcenter/download-windows-server-2019. Select yo
 <br />
 Creating Our Virtual Machines: <br/>
 Open Oracle VirtualBox. Click "New" then name your VM DC(Domain Controller) and for version select Other Windows(64-bit). At least 2GB(2048MB) of RAM and click "Next" until finish.
+<br />
 <img src="https://i.imgur.com/GFqARyp.png" width="600" alt="VMSetup Steps"/>
 <img src="https://i.imgur.com/peUCCcU.png" width="600" alt="VMSetup Steps"/>
 <br />
