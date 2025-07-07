@@ -27,7 +27,7 @@ Go to virtualbox.org/wiki/Downloads. Download your preferred platform package. A
 <br />
 Download Windows 10 ISO:  <br/>
 Go to www.microsoft.com/en-us/software-download/windows10. 
-<img src="https://i.imgur.com/AG2jMtJ.png" height="80%" width="80%" alt="VMSetup Steps"/>
+<img src="https://i.imgur.com/AG2jMtJ.png" width="600" alt="VMSetup Steps"/>
 <br />
 <br />
 Download Server 2019 ISO: <br/>
