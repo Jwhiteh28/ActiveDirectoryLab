@@ -115,6 +115,12 @@ After install go to Tools > Routing and Remote Access > right click DC (Local) >
 <img src="https://i.imgur.com/Px8acYH.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/9WAq1zK.png" width="600" alt="AD"/>
 <br/>
+Setup the DHCP(Dynamic Host Configuration Protocol) Server on our Domain Controller: <br/>
+This will allow the Windows 10 Client to get an IP Address which will let it get on the internet and browse even though on private internal network. On Server Manager Dashboard, go to Add roles and features > click Next until you get to Server Roles > cick DHCP Server then Add Features > Next until Install
+<br/>
+<img src="https://i.imgur.com/LkVCakQ.png" width="600" alt="AD"/>
+<br/>
+Once Install is complete, let's set up DHCP: <br/>
 <!--
 <br />
 Sanitization complete:  <br/>
