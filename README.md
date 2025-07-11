@@ -116,12 +116,23 @@ After install go to Tools > Routing and Remote Access > right click DC (Local) >
 <img src="https://i.imgur.com/9WAq1zK.png" width="600" alt="AD"/>
 <br/>
 Setup the DHCP(Dynamic Host Configuration Protocol) Server on our Domain Controller: <br/>
-This will allow the Windows 10 Client to get an IP Address which will let it get on the internet and browse even though on private internal network. On Server Manager Dashboard, go to Add roles and features > click Next until you get to Server Roles > cick DHCP Server then Add Features > Next until Install
+This will allow the Windows 10 Client to get an IP Address which will let it get on the internet and browse even though on private internal network. On Server Manager Dashboard, go to Add roles and features > click Next until you get to Server Roles > click DHCP Server then Add Features > Next until Install
 <br/>
 <img src="https://i.imgur.com/LkVCakQ.png" width="600" alt="AD"/>
 <br/>
 Once Install is complete, let's set up DHCP: <br/>
-Go to Tools > DHCP > click dropdown on DC > click dropdown on IPv4 > left click on IPv4 > New Scope > Next > In the name section I type: 172.16.0.100-200 then click Next > in Start IP address I type: 172.16.0.100 and in End IP Address: 172.16.0.200 Length: 24
+Go to Tools > DHCP > click dropdown on DC > click dropdown on IPv4 > left click on IPv4 > New Scope > Next > In the name section I type: 172.16.0.100-200 then click Next > Next 
+<br/> 
+<img src="https://i.imgur.com/Lvt12h8.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/1ENxaz5.png" width="600" alt="AD"/> <br/>
+In Start IP address I type: 172.16.0.100 and in End IP Address: 172.16.0.200 Length: 24 make sure the subnet mask is 255.255.255.0 then click Next <br/>
+<img src="https://i.imgur.com/YHCwyTY.png" width="600" alt="AD"/> <br/>
+Lease Duration I did 8 days click Next > <br/>
+<img src="https://i.imgur.com/hPP9xEo.png" width="600" alt="AD"/> <br/>
+Configure DHCP Options, click Yes then Next <br/>
+<img src="https://i.imgur.com/exhcKpL.png" width="600" alt="AD"/> <br/>
+Router (Default Gateway): in the IP Address enter the domain controller IP Address: 172.16.0.1 and click Add then Next > Next until Finish
+<img src="https://i.imgur.com/UQ3hDpQ.png" width="600" alt="AD"/>
 <br/>
 <!--
 <br />
