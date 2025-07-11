@@ -131,8 +131,12 @@ Lease Duration I did 8 days click Next > <br/>
 <img src="https://i.imgur.com/hPP9xEo.png" width="600" alt="AD"/> <br/>
 Configure DHCP Options, click Yes then Next <br/>
 <img src="https://i.imgur.com/exhcKpL.png" width="600" alt="AD"/> <br/>
-Router (Default Gateway): in the IP Address enter the domain controller IP Address: 172.16.0.1 and click Add then Next > Next until Finish
+Router (Default Gateway): in the IP Address enter the domain controller IP Address: 172.16.0.1 and click Add then Next > Next until Finish. When finish, right click the DC and click Authorize then right click it again to refresh it
 <img src="https://i.imgur.com/UQ3hDpQ.png" width="600" alt="AD"/>
+<br/>
+Using Powershell script to create users in Active Directory: <br/>
+The Purpose is to create a bunch of users so I don't have to manually create each user
+
 <br/>
 <!--
 <br />
