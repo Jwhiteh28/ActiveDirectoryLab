@@ -121,6 +121,8 @@ This will allow the Windows 10 Client to get an IP Address which will let it get
 <img src="https://i.imgur.com/LkVCakQ.png" width="600" alt="AD"/>
 <br/>
 Once Install is complete, let's set up DHCP: <br/>
+Go to Tools > DHCP > click dropdown on DC > click dropdown on IPv4 > left click on IPv4 > New Scope > Next > In the name section I type: 172.16.0.100-200 then click Next > in Start IP address I type: 172.16.0.100 and in End IP Address: 172.16.0.200 Length: 24
+<br/>
 <!--
 <br />
 Sanitization complete:  <br/>
