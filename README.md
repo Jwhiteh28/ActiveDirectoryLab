@@ -109,6 +109,12 @@ Next, install RAS/NAT on the Domain Controller to allow the Windows 10 Client(on
 <img src="https://i.imgur.com/26hJR6V.png" width="600" alt="AD"/>
 <br/>
 After install go to Tools > Routing and Remote Access > right click DC (Local) > click Configure and Enable Routing and Remote Access > click Next > click Network Address Translation > Next > click the one we named INTERNET earlier then click Next > Then Finish
+<br/>
+<img src="https://i.imgur.com/Wv4uYc3.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/Hj3xrxj.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/Px8acYH.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/9WAq1zK.png" width="600" alt="AD"/>
+<br/>
 <!--
 <br />
 Sanitization complete:  <br/>
