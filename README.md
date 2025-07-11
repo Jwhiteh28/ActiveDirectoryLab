@@ -139,6 +139,9 @@ The Purpose is to create a bunch of users so I don't have to manually create eac
 <img src="https://i.imgur.com/dMqixyS.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/Gb589Tp.png" width="600" alt="AD"/>
 <br/>
+Creating the Client VM: <br/>
+
+<br/>
 <!--
 <br />
 Sanitization complete:  <br/>
