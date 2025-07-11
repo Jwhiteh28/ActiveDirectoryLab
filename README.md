@@ -135,8 +135,9 @@ Router (Default Gateway): in the IP Address enter the domain controller IP Addre
 <img src="https://i.imgur.com/UQ3hDpQ.png" width="600" alt="AD"/>
 <br/>
 Using Powershell script to create users in Active Directory: <br/>
-The Purpose is to create a bunch of users so I don't have to manually create each user
-
+The Purpose is to create a bunch of users so I don't have to manually create each user. Click Start > Windows PowerShell > Right click Windows PowerShell ISE > More > Run as Admin > Click the little folder that say, Open Script and I open the script on my desktop(vm) > After upload script I had to Unrestrict some things to be able to use the script > After using the script you can see a bunch of random name were generated
+<img src="https://i.imgur.com/dMqixyS.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/Gb589Tp.png" width="600" alt="AD"/>
 <br/>
 <!--
 <br />
