@@ -100,6 +100,15 @@ Now we have an account but it's not an admin. To make this account admin, right 
 <img src="https://i.imgur.com/LoNEVZO.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/kaIWn26.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/DzAXSiI.png" width="600" alt="AD"/>
+<br/>
+Install RAS/NAT(Remote Access Service/Network Address Translation): <br/>
+Next, install RAS/NAT on the Domain Controller to allow the Windows 10 Client(once we create it) to remain on a private virtual network while still being able to access the internet through the Domain Controller. On Server Manager Dashboard, go to Add roles and features > click next until get to Select Server Roles > click Remote Access > Next > Next > in Select Role Service > click Routing > Add Features > then Next until install.
+<br/>
+<img src="https://i.imgur.com/kfyDBtZ.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/pFi8V0o.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/26hJR6V.png" width="600" alt="AD"/>
+<br/>
+After install go to Tools > Routing and Remote Access > right click DC (Local) > click Configure and Enable Routing and Remote Access > click Next > click Network Address Translation > Next > click the one we named INTERNET earlier then click Next > Then Finish
 <!--
 <br />
 Sanitization complete:  <br/>
