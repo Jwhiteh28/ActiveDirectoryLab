@@ -140,6 +140,7 @@ The Purpose is to create a bunch of users so I don't have to manually create eac
 <img src="https://i.imgur.com/Gb589Tp.png" width="600" alt="AD"/>
 <br/>
 Creating the Client VM: <br/>
+In the Oracle VirtualBox Manager, click New > I name it CLIENT1 > Version: Windows 10 > I did two gigbits. Next we are going to put this CLIENT1 VM in the same network as our DC. Right CLIENT1 go to settings > Network > Instead of NAT we use Internal Network >
 
 <br/>
 <!--
