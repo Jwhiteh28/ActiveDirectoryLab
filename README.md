@@ -143,7 +143,7 @@ Creating the Client VM: <br/>
 In the Oracle VirtualBox Manager, click New > I name it CLIENT1 > Version: Windows 10 > I did two gigbits. Next we are going to put this CLIENT1 vm in the same network as our DC. Right CLIENT1 go to settings > Network > Instead of NAT we use Internal Network and click Ok. Now open the new CLIENT1 vm and use the Windows 10 iso and click Mount and Retry Boot. 
 <img src="https://i.imgur.com/n6fwhCV.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/GHkRZ9X.png" width="600" alt="AD"/>
-<img src="https://i.imgur.com/5hdZreG.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/5hdZreG.png" width="600" alt="AD"/><br/>
 After I create the CLIENT vm, I open up the command line because I'm checking if this vm is connected to the Domain Controller. I use ipconfig and see that where on the domain and I use the ping 127.0.0.1 the loopback address to test the network.
 <img src="https://i.imgur.com/dXc477G.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/P9ox61i.png" width="600" alt="AD"/>
