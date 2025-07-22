@@ -144,7 +144,7 @@ In the Oracle VirtualBox Manager, click New > I name it CLIENT1 > Version: Windo
 <img src="https://i.imgur.com/n6fwhCV.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/GHkRZ9X.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/5hdZreG.png" width="600" alt="AD"/><br/>
-After I create the CLIENT vm, I open up the command line because I'm checking if this vm is connected to the Domain Controller. I use ipconfig and see that where on the domain and I use the ping 127.0.0.1 the loopback address to test the network.
+After I create the CLIENT vm, I open up the command line because I'm checking if this vm is connected to the Domain Controller. I use ipconfig to see that it is on the correct domain and IP address. There after I use ping 127.0.0.1 the loopback address to test the network.
 <img src="https://i.imgur.com/dXc477G.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/P9ox61i.png" width="600" alt="AD"/>
 <br/>
