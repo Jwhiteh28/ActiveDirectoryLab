@@ -148,6 +148,18 @@ After I create the CLIENT vm, I open up the command line because I'm checking if
 <img src="https://i.imgur.com/dXc477G.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/P9ox61i.png" width="600" alt="AD"/>
 <br/>
+Joining a computer to the Domain Controller: <br/>
+Not only we are going to change the name of the computer, we are going to add it to the domain. First in the new vm(CLIENT1), right click start > go to Systems > scroll down to Rename the PC(advance) > click change > change the name, I change name to CLIENT1 > Next make it a Member of: Domain > enter the correct credentials for your Domain Controller. The computer should be added to the domain.
+<img src="https://i.imgur.com/oG3BRmM.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/1d5nq2l.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/8yDwdOD.png" width="600" alt="AD"/>
+<br/>
+In the DC vm, here is how to check if a computer is on the domacin. First I checked on the DHCP. Go to Server Manager > Tools > DHCP > drop down domain, IPv4, Scope > go to Address Leases and you can see that CLIENT computer.
+<img src="https://i.imgur.com/UNSi8oe.png" width="600" alt="AD"/>
+<br/>
+Let's check Active Directory Users and Computers. Click start > Windows Adiminstrative Tools > Active Directory Users and Computers > drop down domain and go to Computers. Computers will have a list of computers that are connected to the domain.
+<img src="https://i.imgur.com/t1vSFFx.png" width="600" alt="AD"/>
+<br/>
 <!--
 <br />
 Sanitization complete:  <br/>
