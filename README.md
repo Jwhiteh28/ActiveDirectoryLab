@@ -141,15 +141,18 @@ The Purpose is to create a bunch of users so I don't have to manually create eac
 <br/>
 Creating the Client VM: <br/>
 In the Oracle VirtualBox Manager, click New > I name it CLIENT1 > Version: Windows 10 > I did two gigbits. Next we are going to put this CLIENT1 vm in the same network as our DC. Right CLIENT1 go to settings > Network > Instead of NAT we use Internal Network and click Ok. Now open the new CLIENT1 vm and use the Windows 10 iso and click Mount and Retry Boot. 
+<br/>
 <img src="https://i.imgur.com/n6fwhCV.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/GHkRZ9X.png" width="600" alt="AD"/>
-<img src="https://i.imgur.com/5hdZreG.png" width="600" alt="AD"/><br/>
+<img src="https://i.imgur.com/5hdZreG.png" width="600" alt="AD"/>
+<br/>
 After I create the CLIENT vm, I open up the command line because I'm checking if this vm is connected to the Domain Controller. I use ipconfig to see that it is on the correct domain and IP address. There after I use ping 127.0.0.1 the loopback address to test the network.
 <img src="https://i.imgur.com/dXc477G.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/P9ox61i.png" width="600" alt="AD"/>
 <br/>
 Joining a computer to the Domain Controller: <br/>
 Not only we are going to change the name of the computer, we are going to add it to the domain. First in the new vm(CLIENT1), right click start > go to Systems > scroll down to Rename the PC(advance) > click change > change the name, I change name to CLIENT1 > Next make it a Member of: Domain > enter the correct credentials for your Domain Controller. The computer should be added to the domain.
+<br/>
 <img src="https://i.imgur.com/oG3BRmM.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/1d5nq2l.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/8yDwdOD.png" width="600" alt="AD"/>
