@@ -163,6 +163,13 @@ In the DC vm, here is how to check if a computer is on the domacin. First I chec
 Let's check Active Directory Users and Computers. Click start > Windows Adiminstrative Tools > Active Directory Users and Computers > drop down domain and go to Computers. Computers will have a list of computers that are connected to the domain.
 <img src="https://i.imgur.com/t1vSFFx.png" width="600" alt="AD"/>
 <br/>
+Setup Remote Desktop for non-administrative users on CLIENT1: <br/>
+We setup the Remote Desktop on Client1 this will allow Domain Users to use remote desktop to control this PC(CLIENT1)
+Right click start > Systems > on the About go to Remote Desktop > under User Accounts click, Select users that can remotely access this PC > click Add > type domain users and OK until finish. Make sure Remote Desktop is enable.
+<br/>
+<img src="https://i.imgur.com/4jIQKKu.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/WnHGr4t.png" width="600" alt="AD"/>
+<br/>
 <!--
 <br />
 Sanitization complete:  <br/>
