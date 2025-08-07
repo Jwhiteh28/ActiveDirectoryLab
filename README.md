@@ -165,7 +165,7 @@ Let's check Active Directory Users and Computers. Click start > Windows Adiminst
 <br/>
 Setup Remote Desktop for non-administrative users on CLIENT1: <br/>
 We setup the Remote Desktop on Client1 this will allow Domain Users to use remote desktop to control this PC(CLIENT1)
-Right click start > Systems > on the About go to Remote Desktop > under User Accounts click, Select users that can remotely access this PC > click Add > type domain users and OK until finish. Make sure Remote Desktop is enable.
+Right click start > Systems > on the About go to Remote Desktop > under User Accounts click, Select users that can remotely access this PC > click Add > type domain users and OK until finish. Make sure Remote Desktop is enable. Normally you would do this in Group policies to do multiple computers at once but for this example I did only one.
 <br/>
 <img src="https://i.imgur.com/4jIQKKu.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/WnHGr4t.png" width="600" alt="AD"/>
