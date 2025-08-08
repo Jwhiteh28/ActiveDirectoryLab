@@ -157,7 +157,7 @@ Not only we are going to change the name of the computer, we are going to add it
 <img src="https://i.imgur.com/1d5nq2l.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/8yDwdOD.png" width="600" alt="AD"/>
 <br/>
-In the DC vm, here is how to check if a computer is on the domacin. First I checked on the DHCP. Go to Server Manager > Tools > DHCP > drop down domain, IPv4, Scope > go to Address Leases and you can see that CLIENT computer.
+In the DC vm, here is how to check if a computer is on the domain. First I checked on the DHCP. Go to Server Manager > Tools > DHCP > drop down domain, IPv4, Scope > go to Address Leases and you can see that CLIENT computer.
 <img src="https://i.imgur.com/UNSi8oe.png" width="600" alt="AD"/>
 <br/>
 Let's check Active Directory Users and Computers. Click start > Windows Adiminstrative Tools > Active Directory Users and Computers > drop down domain and go to Computers. Computers will have a list of computers that are connected to the domain.
@@ -169,6 +169,17 @@ Right click start > Systems > on the About go to Remote Desktop > under User Acc
 <br/>
 <img src="https://i.imgur.com/4jIQKKu.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/WnHGr4t.png" width="600" alt="AD"/>
+<br/>
+Configure Group Policy: Account Lockouts and Enable & Disabling Accounts: <br/>
+Group Policy allows admins to configure, control and enforce settings on users' computers and accounts across the network. First I set an Account Lockout policy.
+In the Domain Controller > right click start go to run and type, gpmc.msc > In GPMC, dropdown Forest, Domains, bluemachina.com to Default Domain Policy > right click and go to edit > Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy. Here you can configure account lockout duration, threshold and reset account lockout counter after.
+<br/>
+<img src="https://i.imgur.com/uxyyr4m.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/jCUUKnX.png" width="600" alt="AD"/>
+<br/>
+Here you can see the Account Policy is enable in settings
+<br/>
+<img src="https://i.imgur.com/h3YVKJc.png" width="600" alt="AD"/>
 <br/>
 <!--
 <br />
