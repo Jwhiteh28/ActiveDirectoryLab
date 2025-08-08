@@ -186,6 +186,15 @@ In the CLIENT1 as admin, I use the command line to enforce the policy update. Op
 <img src="https://i.imgur.com/uDaJfnM.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/EE0X2fb.png" width="600" alt="AD"/>
 <br/>
+Next on the CLIENT1 I purposely enter the incorrect password for one of the random generated accounts I created for the _USERS OU in the ADUC to check if the policy was works.
+<br/>
+<img src="https://i.imgur.com/K6w7jGf.png" width="600" alt="AD"/>
+<br/>
+In our Domain Controller Actice Directory Users & Computers, right click domain > find and type the name of account that is locked out > click find now > double click the name then go to account > click the check box to unlock account > apply then click ok
+<br/>
+<img src="https://i.imgur.com/F0KsZPi.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/I7K5Ny1.png" width="600" alt="AD"/>
+<br/>
 <!--
 <br />
 Sanitization complete:  <br/>
