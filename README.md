@@ -200,6 +200,11 @@ To reset the password, go to ADCU, right click domain > find and type the name o
 <img src="https://i.imgur.com/wKlzbEo.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/BmbaIbE.png" width="600" alt="AD"/>
 <br/>
+You can also disable and enable accounts as well. When the account is disable you will see a small down arrow in the icon
+<br/>
+<img src="https://i.imgur.com/W89BZzx.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/wJZVpl6.png" width="600" alt="AD"/>
+<br/>
 <!--
 <br />
 Sanitization complete:  <br/>
