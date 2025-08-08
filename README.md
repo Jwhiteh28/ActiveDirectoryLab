@@ -205,6 +205,12 @@ You can also disable and enable accounts as well. When the account is disable yo
 <img src="https://i.imgur.com/W89BZzx.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/wJZVpl6.png" width="600" alt="AD"/>
 <br/>
+Observing Logs:<br/>
+The purpose of observing logs is to monitor, track, and investigate activities for security, compliance, and operational health
+<br/>
+<img src="" width="600" alt="AD"/>
+<img src="" width="600" alt="AD"/>
+<br/>
 <!--
 <br />
 Sanitization complete:  <br/>
