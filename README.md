@@ -195,6 +195,11 @@ In our Domain Controller Actice Directory Users & Computers, right click domain 
 <img src="https://i.imgur.com/F0KsZPi.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/I7K5Ny1.png" width="600" alt="AD"/>
 <br/>
+To reset the password, go to ADCU, right click domain > find and type the name of the account you wish to rest password > click find now > right click name then Reset Password > change password, check the box then confirm
+<br/>
+<img src="https://i.imgur.com/wKlzbEo.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/BmbaIbE.png" width="600" alt="AD"/>
+<br/>
 <!--
 <br />
 Sanitization complete:  <br/>
