@@ -181,6 +181,10 @@ Here you can see the Account Policy is enable in settings
 <br/>
 <img src="https://i.imgur.com/h3YVKJc.png" width="600" alt="AD"/>
 <br/>
+In the CLIENT1, I use the command line to enforce the policy update
+<br/>
+<img src="" width="600" alt="AD"/>
+<br/>
 <!--
 <br />
 Sanitization complete:  <br/>
