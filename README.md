@@ -181,9 +181,10 @@ Here you can see the Account Policy is enable in settings
 <br/>
 <img src="https://i.imgur.com/h3YVKJc.png" width="600" alt="AD"/>
 <br/>
-In the CLIENT1, I use the command line to enforce the policy update
+In the CLIENT1 as admin, I use the command line to enforce the policy update. Open command line as admin > type gpupdate /force. You then can type gpresult /r to check the policy
 <br/>
-<img src="" width="600" alt="AD"/>
+<img src="https://i.imgur.com/uDaJfnM.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/EE0X2fb.png" width="600" alt="AD"/>
 <br/>
 <!--
 <br />
