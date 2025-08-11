@@ -205,11 +205,11 @@ You can also disable and enable accounts as well. When the account is disable yo
 <img src="https://i.imgur.com/W89BZzx.png" width="600" alt="AD"/>
 <img src="https://i.imgur.com/wJZVpl6.png" width="600" alt="AD"/>
 <br/>
-Observing Logs:<br/>
-The purpose of observing logs is to monitor, track, and investigate activities for security, compliance, and operational health
+Observing Logs: <br/>
+The purpose of observing logs is to monitor, track, and investigate activities for security, compliance, and operational health. First I check the domain controller logs > click start in search type eventvwr.msc > expand Windows Logs > right click Security > Find > type the name of account(smart) press Find Next. You will be able to see the tasks the user did on the account like log ons,log offs and etc.
 <br/>
-<img src="" width="600" alt="AD"/>
-<img src="" width="600" alt="AD"/>
+<img src="https://i.imgur.com/PJa1THa.png" width="600" alt="AD"/>
+<img src="https://i.imgur.com/YjfFtOh.png" width="600" alt="AD"/>
 <br/>
 <!--
 <br />
